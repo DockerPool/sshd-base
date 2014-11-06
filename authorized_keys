@@ -1,0 +1,7 @@
+#此处添加需要访问系统的ssh公钥
+#公钥生成方法：
+# $ ssh-keygen
+# 根据提示生成访问密钥
+# $ cat ~/.ssh/id_rsa.pub >authorized_keys
+# 复制公钥到 authorized_keys 文件中
+
